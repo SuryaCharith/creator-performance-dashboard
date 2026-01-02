@@ -87,6 +87,20 @@ likes	Integer
 comments	Integer
 followers_gained	Integer
 
+ AI Usage Log
+
+ How it helped
+- Assisted in structuring backend APIs
+- Helped with React component organization
+- Suggested improvements for filtering logic
+
+ Example Prompt
+- "Create a FastAPI endpoint to filter analytics data by platform"
+
+ Example Correction
+- Initial filtering logic was inefficient
+- Refactored to validate inputs and apply filtering at database query level
+
 Trade-offs & Next Improvements
 
 Used mock data instead of real social media APIs to reduce complexity
